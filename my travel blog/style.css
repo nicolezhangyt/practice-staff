@@ -161,8 +161,65 @@ a {
     text-align: center;
     text-transform: uppercase;
     padding-top: 10%;
-    color:grey;
+    color:#3B3F45;
   }
+/*
+  .face-image{
+      border-radius: 50%;
+      position: absolute;
+      margin-left: 10%;
+    }
+  .content-comment{
+    position:absolute;
+    left: 25%;
+    right: 10%;
+    font-size: 180%;
+    line-height: 180%;
+    font-family: 'Questrial', sans-serif;
+  }
+  .row-comment{
+    margin-top: 10%;
+  }
+  .individual-comment{
+    color:#3B3F45;
+  }
+  */
+
+  .row-comment{
+    margin-top: 10%;
+  }
+
+  .face-image{
+    border-radius: 50%;
+    float:left;
+    margin: 0 15px 0 25px;
+    padding:0 10px 0 10px;
+  }
+  li {
+    margin: 50px;
+    overflow: auto;
+  }
+  li:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+
+ .individual-comment{
+   font-size: 120%;
+   color:grey;
+   font-family: 'Questrial', sans-serif;
+ }
+
+ .content-comment{
+  font-size: 120%;
+  line-height: 200%;
+  font-family: 'Questrial', sans-serif;
+  margin:10px;
+}
+
+ 
+
+
 
   
  
